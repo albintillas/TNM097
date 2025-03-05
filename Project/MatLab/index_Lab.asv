@@ -1,0 +1,10 @@
+function [indexMat] = index_Lab(path,inputArg2)
+%INDEX_LAB Summary of this function goes here
+%   Detailed explanation goes here
+
+indexMat = {};
+
+outputArg1 = inputArg1;
+outputArg2 = inputArg2;
+end
+
