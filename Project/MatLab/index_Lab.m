@@ -9,7 +9,7 @@ cellArray = cell(numberofImages,2);
     
     path = orgPath + imCounter + ".png";   
     image = imread(path);
-    imageName = "airplane_" + imCounter;
+    imageName = "airplane_" + imCounter + ".png";
     
     [meanR, meanG, meanB] =  calcRGB(image);
     
