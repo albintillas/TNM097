@@ -1,4 +1,4 @@
-function optimizeDatasetFromImage(originalImagePath, imageFolder, numImages, optimizedFolder)
+function optimizeDatabaseFromImage(originalImagePath, imageFolder, numImages, optimizedFolder)
     % Load and analyze the original image
     img = imread(originalImagePath);
     boxSize = 20;
