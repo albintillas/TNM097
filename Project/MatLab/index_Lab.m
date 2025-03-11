@@ -2,6 +2,8 @@ function cellArray = index_Lab(orgPath, numberofImages)
 %INDEX_LAB Summary of this function goes here
 %   Detailed explanation goes here
 
+% fileInfo = dir(orgPath);
+% numFiles = numel(fileInfo);
 
 cellArray = cell(numberofImages,2);
 
